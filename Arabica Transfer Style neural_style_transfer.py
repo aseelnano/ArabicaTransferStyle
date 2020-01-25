@@ -74,9 +74,9 @@ dtype, multidevice, backward_device = setup_gpu(params)
 stylenet = StyleNet(params, dtype, multidevice, backward_device)
 
 content_path = 'https://dl.dropboxusercontent.com/s/jincs1khrbn2hzl/t01.jpg?raw=1'
-style_paths = ['https://dl.dropboxusercontent.com/s/1nn36wyqn34qfmt/t02.jpg?raw=1', 'https://dl.dropboxusercontent.com/s/uv1xersxnuqzxpw/pixels2.jpg?raw=1']
+style_paths = ['https://dl.dropboxusercontent.com/s/jincs1khrbn2hzl/t01.jpg?raw=1', 'https://dl.dropboxusercontent.com/s/uv1xersxnuqzxpw/pixels2.jpg?raw=1']
 
-num_iterations = 1100
+num_iterations = 1200
 output_path = 'out.png'
 image_size = 1024
 original_colors = 0
